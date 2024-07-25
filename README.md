@@ -1,10 +1,11 @@
 # EDA-Project-on-AirBnB-dataset
-Capstone project of almabetter
 
 Here , we are performing data analysis on the AirBnB dataset . It will provide us various key understandings out of this huge data . 
 In the process we will first clean the data from various anomalies and then create subset dataframes for analysis . We will also create visual representation of various key understandings , which makes it easier to spot the trends and patterns from the data. 
 
-The dataset we have,contains the information of the lodgings present in the boroughs of the New york city.The dataset contains 48895 rows and 16 columns.
+The dataset we have,contains **the information of the lodgings present in the boroughs of the New york city**.**The dataset contains 48895 rows and 16 columns.**
+
+# Data Wrangling
 
 There were listings where Price value was equal to 0.This was unrealistic to happen practically so I assume this was some issue in data collection . To solve the issue , I calculated the average prices of each room types from the entire dataset and then replaced these uneven prices for the listings with the average prices based on their room types.
 
@@ -16,7 +17,7 @@ Then we analysed the reviews_per_month column where there were 5000+ null values
 
 Then we checked the minimum_nights column with too high values. Higher minimum nights represents that the listing are available for longer periods.I assumed that these listings are authentic because it could be that the owners want long term gains from the listings. The analysis also made us conclude that too high prices are less frequently visited by the customers in case of listings offered for longer periods . That is very obvious because if someone is staying in a place for a long time period , he will definetely want more economical rental on per day basis. Higher prices per day in case of long stays will diminish customers.
 
-INSIGHTS FOUND
+**INSIGHTS FOUND**
 
 According to number of listings in each neighbourhood group , Manhattan is the most preferred by hosts and,by inference most preferred by customers as well.It is followed by Brooklyn and then Queens.
 
@@ -26,7 +27,7 @@ The maximum number of Entire home/apt are in Manhattan .While the maximum number
 
 The average Price of Entire home/apt is the highest among all room types.
 
-SOLUTION TO THE PROBLEM STATEMENT:
+**SOLUTION TO THE PROBLEM STATEMENT:**
 
 1. MANHATTAN is the most preferred neighbourhood group by the tourists.
 
@@ -54,7 +55,7 @@ SOLUTION TO THE PROBLEM STATEMENT:
 
 13.The most preferred Entire home/apt rentals had minimum nights in range of 1 to 3 days.
 
-Solution to the business objective:
+**Solution to the business objective:**
 
 The business Objective of the Client Company is to increase the customer's influx to the website and inturn increase company's revenues.To achieve the increase in the customer's influx to the website , we have to implement a multi-faceted strategy .
 
